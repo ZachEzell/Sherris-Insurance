@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2017 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="glasses" unicode="&#xe800;" d="M0 386q-2 13 8 25l360 186q29 11 41-16 11-33-14-45l-227-104 658 0-228 104q-25 16-14 45 14 27 43 16l362-186q11-12 9-25l-27-256q-8-30-33-30l-313 0q-25 2-31 26l-49 223q-39 25-92 1l-50-224q-6-26-32-26l-312 0q-27 2-31 30z m67-30l19-189 260 0 43 189-322 0z m543 0l41-189 259 0 20 189-320 0z" horiz-adv-x="999" />
+</font>
+</defs>
+</svg>

@@ -1,0 +1,427 @@
+html,
+body {
+  overflow-x: hidden;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+body p {
+  font-family: 'Lora', sans-serif;
+  font-size: 1em;
+}
+i.icon-blue {
+  color: #34c6d3;
+}
+#sidenav-overlay {
+  z-index: 998;
+}
+#top-bar-info {
+  height: 100%;
+  width: 100%;
+  border-bottom: 1px solid rgba(255, 255, 255, 1);
+}
+
+.bg-parallax {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.content-title h3 {
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  margin: 0 0 30px 0;
+  padding-top: 50px;
+  text-transform: uppercase;
+}
+.content-title h3 {
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  margin: 0 0 30px 0;
+  padding-top: 50px;
+  text-transform: uppercase;
+}
+.content-title-white {
+  color: white;
+}
+.content-title-underline {
+  width: 30px;
+  height: 3px;
+  background-color: #34c6d3;
+  margin: 0 auto 30px auto;
+}
+/* NAVBAR */
+#nav-mobile li {
+  margin-top: -13px;
+}
+
+.nav-wrapper {
+  color: black;
+  transition: transform 0.5s ease;
+}
+.navbar-fixed {
+  margin-top: -73px;
+}
+.navbar-fixed {
+  transition: transform 0.5s ease;
+  opacity: 0.8;
+}
+#web-logo {
+  width: 150px;
+  height: 150px;
+  margin-top: -47px;
+}
+/* INFORMATION BOX*/
+#information-box {
+  margin: 0;
+  padding: 0;
+  margin-left: 12em;
+}
+#information-box-inner {
+  width: 28.5em;
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+  height: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 0.7em;
+  margin: 0;
+}
+#information-box-inner span {
+  font-weight: 700;
+}
+.brand-logo img {
+  height: 75%;
+  width: 75%;
+  margin-top: -50px;
+}
+nav {
+  color: black;
+}
+/* HERO */
+#hero-box {
+  height: 40em;
+  background: url('./images/couple.png');
+  background-color: black;
+  background-position: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-attachment: fixed;
+}
+#content-box {
+  height: 20em;
+  width: 40em;
+  position: relative;
+  margin: 0 auto;
+  top: 60%;
+  transform: translateY(-50%);
+  opacity: 0.8;
+}
+
+.nav-wrapper {
+  border-bottom: 1px solid #64b5f6;
+  margin-bottom: 3em;
+
+  padding: 2em 3em 5em 0;
+}
+nav {
+}
+#content-box-right {
+  height: 20em;
+
+  width: 40em;
+  float: right;
+  margin-top: 5em;
+  margin-right: 5em;
+  margin-left: 5em;
+}
+.content-box {
+  padding-bottom: 12em;
+}
+.clipped {
+  clip-path: inset-rectangle(0px, 0px, 100px, 0px);
+}
+
+#benefits-box {
+  text-align: center;
+
+  margin-top: 6em;
+}
+.btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 22px;
+  padding: 3px 15px;
+  border-radius: 0;
+  display: none;
+}
+/*============================================
+                Services
+==============================================*/
+.service-item {
+  padding: 20px 0 20px 0;
+
+  cursor: pointer;
+}
+.service-item-icon img {
+  color: #34c6d3;
+  float: left;
+  padding: 15px;
+  margin-right: 25px;
+  height: 75px;
+  width: 75px;
+  text-align: center;
+}
+.service-item:hover .service-item-icon img {
+  color: #fff;
+  background-color: #34c6d3;
+}
+.service-item-title h3 {
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0 0 10px 0;
+}
+.service-item-desc p {
+  margin: 0;
+  padding-left: 85px;
+}
+/*============================================
+                ABOUT
+==============================================*/
+#about-us-box {
+  height: 40em;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.87);
+}
+#about-text-box {
+  width: 700px;
+  height: 100%;
+  font-size: 1.2em;
+  margin: 0 auto 0 auto;
+  padding: 20px;
+}
+#about-text-box p {
+  color: white;
+}
+#sherri-text {
+  font-size: 2em;
+  font-weight: 700;
+}
+/*============================================
+                CONTACT
+==============================================*/
+
+footer {
+  background-color: #41464b;
+  padding-top: 30px;
+  border-top: 5px solid rgba(0, 0, 0, 0.1);
+}
+#contact-left h3,
+#contact-right h3 {
+  color: #fff;
+  font-size: 27px;
+  font-weight: 700;
+}
+#contact-left p {
+  color: #fff;
+  margin-bottom: 30px;
+}
+#contact-info {
+  background-image: url('./images/site-map-bg.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+address {
+  color: #fff;
+}
+address strong,
+#phone-fax email strong {
+  letter-spacing: 1px;
+}
+form .form-control {
+  background: transparent;
+  border-radius: 0;
+  border-color: #fff;
+  font-size: 17px;
+  font-weight: 300;
+  padding: 8px 16px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+/*============================================
+                QUALIFICATIONS
+==============================================*/
+#about-bg-diagonal {
+  width: 60%;
+  height: 700px;
+  float: right;
+  background-image: url('./images/gaelle-marcel-357627.jpg');
+
+  border-left: 200px solid #fff;
+  border-top: 700px solid transparent;
+}
+#about-content-box {
+  float: left;
+  height: 700px;
+}
+#about-content-box-outer {
+  width: 100%;
+  height: 100%;
+  display: table;
+}
+#about-content-box-inner {
+  display: table-cell;
+  vertical-align: middle;
+}
+#about .content-title h3 {
+  text-align: left;
+}
+#about .content-title .content-title-underline {
+  margin: 0 0 30px 0;
+}
+#about desc p {
+  margin-bottom: 30px;
+}
+
+/* #bottom-right-img {
+  width: 979.2px;
+  height: 652.8px;
+  margin-top: 20em;
+
+  background: url('./images/celebrate.jpg');
+  background-position: top;
+  border-left: 600px solid #fff;
+  border-top: 652px solid transparent;
+  background: red;
+  float: right;
+  z-index: -20;
+} */
+
+/*============================================
+                  Footer
+  ==============================================*/
+#footer-bottom {
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 30px 10px;
+  margin-top: 60px;
+}
+#footer-copyrights p {
+  margin: 0;
+  color: #ffffff;
+}
+#footer-menu {
+  float: left;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 300;
+}
+#footer-menu ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+#footer-menu ul li {
+  display: inline-block;
+}
+#footer-menu a {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 300;
+  margin: 0 10px;
+  text-decoration: none;
+}
+#footer-menu a:hover {
+  color: #34c6d3;
+}
+em {
+  text-decoration: underline;
+}
+/*============================================
+               FORM
+==============================================*/
+#form-box {
+  height: 720px;
+}
+#form-box-inner {
+  width: 45em;
+  margin: auto;
+  padding: 15em 0 15em 0;
+}
+
+/*============================================
+               SUCCESS
+==============================================*/
+#status {
+  color: white;
+}
+#success-box {
+  width: 100%;
+  height: 720px;
+  background: url('./images/memphis-colorful/memphis-colorful.png');
+}
+
+#check-box {
+  width: 500px;
+  height: 120px;
+  position: relative;
+  margin: 0 auto;
+  top: 30%;
+  transform: translateY(-50%);
+}
+#check-box h3 {
+  font-weight: 700;
+}
+#check-circle {
+  margin-left: 35%;
+}
+#call-us-btn {
+  margin-left: 10%;
+}
+/*============================================
+               Failure
+==============================================*/
+#check-box-2 {
+  width: 500px;
+  height: 120px;
+  position: relative;
+  margin: 0 auto;
+  top: 30%;
+  transform: translateY(-50%);
+}
+#check-box-2 h3 {
+  font-weight: 700;
+  margin-left: 20%;
+}
+#check-box-2 i {
+  margin-left: 45%;
+}
+#check-box-2 button {
+  margin-left: 20%;
+}
+
+/*============================================
+                EMAIL
+==============================================*/
+#email-box {
+  width: 100%;
+  height: 800px;
+  padding: 0 0 200px 0;
+}
+#email-box-inner {
+  height: 100%;
+  width: 700px;
+  position: relative;
+  margin: 0 auto;
+  top: 60%;
+  transform: translateY(-50%);
+  opacity: 0.8;
+}
+#email-box-inner .content-title h3 {
+  margin-bottom: 100px;
+}
